@@ -1,16 +1,4 @@
 export const DICE = {
-	dpfull: {
-		name: 'Player Dice (Full)',
-		labels: ['P1', 'P2', 'P1', 'P2', 'P1', 'P2'],
-		values: [ 1,2,1,2,1,2 ],
-		scale: 0.9,
-	},
-	dpshort: {
-		name: 'Player Dice (Short)',
-		labels: ['Player\n1', 'Player\n2', 'Player\n1', 'Player\n2', 'Player\n1', 'Player\n2'],
-		values: [ 1,2,1,2,1,2 ],
-		scale: 0.9,
-	},
 	d2: {
 		name: 'd2',
 		labels: ['1','2'],
@@ -81,6 +69,20 @@ export const DICE = {
 		name: 'Six-Sided Dice (Numbers)',
 		labels: ['1', '2', '3', '4', '5', '6'],
 		values: [ 1,6 ],
+		scale: 0.9,
+	},
+	dpfull: {
+		name: 'Player Dice (Full)',
+		type: 'd6',
+		labels: ['P1', 'P2', 'P1', 'P2', 'P1', 'P2'],
+		values: [ 1,2,1,2,1,2 ],
+		scale: 0.9,
+	},
+	dpshort: {
+		name: 'Player Dice (Short)',
+		type: 'd6',
+		labels: ['Player\n1', 'Player\n2', 'Player\n1', 'Player\n2', 'Player\n1', 'Player\n2'],
+		values: [ 1,2,1,2,1,2 ],
 		scale: 0.9,
 	},
 	dpip: {
