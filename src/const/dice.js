@@ -1,4 +1,16 @@
 export const DICE = {
+	dpfull: {
+		name: 'Player Dice (Full)',
+		labels: ['P1', 'P2', 'P1', 'P2', 'P1', 'P2'],
+		values: [ 1,2,1,2,1,2 ],
+		scale: 0.9,
+	},
+	dpshort: {
+		name: 'Player Dice (Short)',
+		labels: ['Player\n1', 'Player\n2', 'Player\n1', 'Player\n2', 'Player\n1', 'Player\n2'],
+		values: [ 1,2,1,2,1,2 ],
+		scale: 0.9,
+	},
 	d2: {
 		name: 'd2',
 		labels: ['1','2'],
