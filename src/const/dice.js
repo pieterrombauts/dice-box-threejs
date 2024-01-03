@@ -115,7 +115,7 @@ export const DICE = {
 	dspanpoker: {
 		name: 'Spanish Poker Dice (7-Ace)',
 		type: 'd8',
-		labels: ['A', '7', '8', '9', '10', 'J', 'Q', 'K'],
+		labels: ['D', '7', '8', '9', '10', 'A', 'B', 'C'],
 		values: [ 1,8 ],
 		display: 'labels',
 		system: 'dweird',
