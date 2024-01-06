@@ -376,6 +376,9 @@ class DiceFactory {
 				}
 			}
 
+			// Debug statement to see what is being printed on dice face
+			console.log(text);
+
 			//custom texture face
 			if (text instanceof HTMLImageElement) {
 				isTexture = true;
